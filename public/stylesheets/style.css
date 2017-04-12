@@ -6,3 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+input{
+  display: block;
+  margin: 20px auto 0px auto;
+}
+button{
+  margin: 10px auto;
+  display: block;
+}
+
+.sectionGeneric{
+
+border-bottom: 2px solid #999;
+}
