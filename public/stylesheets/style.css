@@ -4,5 +4,53 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #fff;
+}
+input{
+  display: block;
+  margin: 20px auto 0px auto;
+}
+button{
+  margin: 10px auto;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.sectionHeader{
+  background-color: #333;
+  color: #fff;
+}
+.sectionGeneric{
+margin-top: 10%;
+border-top: 2px solid #999;
+border-bottom: 2px solid #999;
+}
+
+.example{
+  margin: 5% 0;
+}
+
+
+/*styles for flyout*/
+nav{
+    background-color: #333;
+}
+nav >ul > li{
+  display: inline;
+  list-style: none;
+border-right: 2px solid #fff;
+margin-right: 2px;
+padding: 10px;
+  color: #fff;
+  outline: none;
+}
+
+nav > ul li ul {
+	display: none;
+}
+nav > ul li:hover ul {
+	display: block;
+  position: absolute;
+  background-color: #333;
 }
